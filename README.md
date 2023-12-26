@@ -21,6 +21,7 @@
         Для правильной работы приложениия в Docker-container было создано 
     отдельное приложение с фиксированным путем к файлу заметок(EXTERNAL_PATH_FILE)
     в ru.serjeypyzin.practicaltask package
+
         файл для создания контейнера:
             - docker-comopose-compile.yaml
         команда для создания контейнера:
