@@ -13,17 +13,18 @@ public class UserInteraction {
         writer.fileWriter(formingNotes());
     }
 
-    private static String formingNotes(){
-        Scanner scanner = new Scanner(System.in);
-        LocalDateTime localDateTime = LocalDateTime.now();
-        String dateTimeString = localDateTime.format(DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss"));
-        String notes = "";
-        System.out.println("Введите заметку:");
-        try {
-            notes = scanner.nextLine();
-        } catch (NoSuchElementException e){
-            System.out.println("Ошибка нахождения следующей строки " + e);
+    private static String formingNotes() {
+        try (Scanner scanner = new Scanner(System.in)) {
+            LocalDateTime localDateTime = LocalDateTime.now();
+            String dateTimeString = localDateTime.format(DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss"));
+
+            System.out.println("Введите заметку:");
+            String notes = scanner.nextLine();
+
+            return dateTimeString + " -> " + notes;
+        } catch (NoSuchElementException e) {
+            System.out.println("Ошибка нахождения следующей строки: " + e);
+            return null;
         }
-        return dateTimeString + " -> " + notes;
     }
 }

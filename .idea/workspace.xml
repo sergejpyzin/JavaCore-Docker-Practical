@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cb874cb-0aee-48e5-8d4c-ac5dae0457a4" name="Changes" comment="created docker-compose-compile.yaml">
-      <change afterPath="$PROJECT_DIR$/docker-compose-run.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8cb874cb-0aee-48e5-8d4c-ac5dae0457a4" name="Changes" comment="changed docker-compose-run.yaml as added EXTERNAL_FILE_PATH=testNotes.txt and deleted test.txt">
+      <change afterPath="$PROJECT_DIR$/src/ru/serjeypyzin/practicaltaskwithoutcontainer/regular/UserInteraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/serjeypyzin/practicaltaskwithoutcontainer/regular/WriteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/serjeypyzin/practicaltaskwithoutcontainer/sample/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/serjeypyzin/practicaltask/regular/UserInteraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/serjeypyzin/practicaltask/regular/UserInteraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/serjeypyzin/practicaltask/regular/WriteFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/serjeypyzin/practicaltask/regular/WriteFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testNotes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testNotes.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/GeekBranch/javaCore/untitled/src/ru/serjeypyzin/practicaltaskwithoutcontainer/regular",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -49,7 +50,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GeekBranch\javaCore\untitled\src\ru\serjeypyzin\practicaltaskwithoutcontainer\regular" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.serjeypyzin.practicaltaskwithoutcontainer.sample" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ru.serjeypyzin.practicaltaskwithoutcontainer.sample.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.serjeypyzin.practicaltask.sample.Main" />
       <module name="untitled" />
@@ -63,8 +72,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ru.serjeypyzin.practicaltaskwithoutcontainer.sample.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.serjeypyzin.practicaltaskwithoutcontainer.sample.Main" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.serjeypyzin.practicaltaskwithoutcontainer.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ru.serjeypyzin.practicaltaskwithoutcontainer.sample.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -77,7 +100,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703590421644</updated>
-      <workItem from="1703590422659" duration="4165000" />
+      <workItem from="1703590422659" duration="9233000" />
     </task>
     <task id="LOCAL-00001" summary="Start work and created the main classes">
       <option name="closed" value="true" />
@@ -119,11 +142,46 @@
       <option name="project" value="LOCAL" />
       <updated>1703593408801</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="changed all files">
+      <option name="closed" value="true" />
+      <created>1703595694901</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703595694901</updated>
+    </task>
+    <task id="LOCAL-00007" summary="changed WriteFile.java as added externalFilePath and changed filePath">
+      <option name="closed" value="true" />
+      <created>1703599761048</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703599761048</updated>
+    </task>
+    <task id="LOCAL-00008" summary="changed docker-compose-run.yaml as added EXTERNAL_FILE_PATH=testNotes.txt and deleted test.txt">
+      <option name="closed" value="true" />
+      <created>1703599812727</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703599812727</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start work and created the main classes" />
@@ -131,6 +189,9 @@
     <MESSAGE value="changed UserInteraction.java" />
     <MESSAGE value="changed Main.java" />
     <MESSAGE value="created docker-compose-compile.yaml" />
-    <option name="LAST_COMMIT_MESSAGE" value="created docker-compose-compile.yaml" />
+    <MESSAGE value="changed all files" />
+    <MESSAGE value="changed WriteFile.java as added externalFilePath and changed filePath" />
+    <MESSAGE value="changed docker-compose-run.yaml as added EXTERNAL_FILE_PATH=testNotes.txt and deleted test.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed docker-compose-run.yaml as added EXTERNAL_FILE_PATH=testNotes.txt and deleted test.txt" />
   </component>
 </project>
