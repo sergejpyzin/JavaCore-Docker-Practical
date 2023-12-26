@@ -3,6 +3,8 @@ services:
     image: bellsoft/liberica-openjdk-alpine:latest
     stdin_open: true
     tty: true
-    command: java -classpath ./out ru.serjeypyzin.practicaltask.sample.Main
+    command: sh -c "java -classpath /out ru.serjeypyzin.practicaltask.sample.Main $(realpath /out/${EXTERNAL_FILE_PATH})"
+    environment:
+      - EXTERNAL_FILE_PATH=testNotes.txt
     volumes:
       - ./bin:/out
