@@ -1,0 +1,8 @@
+services:
+  app:
+    image: bellsoft/liberica-openjdk-alpine:latest
+    stdin_open: true
+    tty: true
+    command: java -classpath ./out ru.serjeypyzin.practicaltask.sample.Main
+    volumes:
+      - ./bin:/out

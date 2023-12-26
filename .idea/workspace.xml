@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cb874cb-0aee-48e5-8d4c-ac5dae0457a4" name="Changes" comment="Start work and created the main classes">
+    <list default="true" id="8cb874cb-0aee-48e5-8d4c-ac5dae0457a4" name="Changes" comment="created docker-compose-compile.yaml">
+      <change afterPath="$PROJECT_DIR$/docker-compose-run.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/serjeypyzin/practicaltask/regular/UserInteraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/serjeypyzin/practicaltask/regular/UserInteraction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/serjeypyzin/practicaltask/regular/WriteFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/serjeypyzin/practicaltask/regular/WriteFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/serjeypyzin/practicaltask/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/serjeypyzin/practicaltask/sample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +45,30 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.serjeypyzin.practicaltask.sample.Main" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.serjeypyzin.practicaltask.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703590421644</updated>
-      <workItem from="1703590422659" duration="1863000" />
+      <workItem from="1703590422659" duration="4165000" />
     </task>
     <task id="LOCAL-00001" summary="Start work and created the main classes">
       <option name="closed" value="true" />
@@ -65,7 +87,39 @@
       <option name="project" value="LOCAL" />
       <updated>1703590633013</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changed WriteFile.java">
+      <option name="closed" value="true" />
+      <created>1703593248243</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703593248243</updated>
+    </task>
+    <task id="LOCAL-00003" summary="changed UserInteraction.java">
+      <option name="closed" value="true" />
+      <created>1703593261433</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703593261433</updated>
+    </task>
+    <task id="LOCAL-00004" summary="changed Main.java">
+      <option name="closed" value="true" />
+      <created>1703593277523</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703593277523</updated>
+    </task>
+    <task id="LOCAL-00005" summary="created docker-compose-compile.yaml">
+      <option name="closed" value="true" />
+      <created>1703593408801</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703593408801</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,6 +127,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start work and created the main classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start work and created the main classes" />
+    <MESSAGE value="changed WriteFile.java" />
+    <MESSAGE value="changed UserInteraction.java" />
+    <MESSAGE value="changed Main.java" />
+    <MESSAGE value="created docker-compose-compile.yaml" />
+    <option name="LAST_COMMIT_MESSAGE" value="created docker-compose-compile.yaml" />
   </component>
 </project>

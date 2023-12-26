@@ -6,9 +6,9 @@ import java.io.IOException;
 
 public class WriteFile {
 
-    public void fileWriter(String filePath, String notes){
+    public void fileWriter(String notes){
 
-        try(BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(filePath, true))) {
+        try(BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("testNotes.txt", true))) {
             bufferedWriter.write(notes);
             bufferedWriter.newLine();
             bufferedWriter.flush();
