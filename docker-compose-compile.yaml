@@ -1,0 +1,7 @@
+services:
+  app:
+    image: bellsoft/liberica-openjdk-alpine:latest
+    command: javac -cp ./src -d ./out ./src/ru/serjeypyzin/practicaltask/sample/Main.java
+    volumes:
+      - ./bin:/out
+      - ./src:/src
